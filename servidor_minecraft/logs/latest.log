@@ -131,3 +131,13 @@
 [14:03:20] [Server thread/INFO]: Unknown command. Type "/help" for help.
 [14:03:39] [Server thread/INFO]: Incorrect argument for command
 xp give @e 10000<--[HERE]
+[14:16:16] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[14:16:24] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[14:16:52] [User Authenticator #0/INFO]: UUID of player dylanve is 6621273a-4f7e-30ee-b878-cb38b9180c59
+[14:16:52] [Server thread/INFO]: dylanve joined the game
+[14:16:52] [Server thread/INFO]: dylanve[/[0:0:0:0:0:0:0:1%0]:44324] logged in with entity id 557 at ([world]37.5, 64.0, -286.5)
+[14:17:17] [Server thread/INFO]: Made dylanve a server operator
+[14:17:45] [Server thread/INFO]: dylanve issued server command: /gamemode creative
+[14:17:45] [Server thread/INFO]: [dylanve: Set own game mode to Creative Mode]
+[14:18:08] [Server thread/INFO]: dylanve issued server command: /tag dylanve add anim.ruleta.azul
+[14:18:08] [Server thread/INFO]: [dylanve: Added tag 'anim.ruleta.azul' to dylanve]
