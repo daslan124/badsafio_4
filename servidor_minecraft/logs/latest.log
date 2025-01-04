@@ -74,3 +74,105 @@
 [13:40:37] [Server thread/INFO]: [dylanve: Set own game mode to Spectator Mode]
 [13:40:39] [Server thread/INFO]: dylanve issued server command: /gamemode creative
 [13:40:39] [Server thread/INFO]: [dylanve: Set own game mode to Creative Mode]
+[13:45:02] [Server thread/INFO]: dylanve issued server command: /paper reload
+[13:45:02] [Server thread/INFO]: dylanve: Please note that this command is not supported and may cause issues.
+[13:45:02] [Server thread/INFO]: dylanve: If you encounter any issues please use the /stop command to restart your server.
+[13:45:02] [Server thread/INFO]: dylanve: Paper config reload complete.
+[13:45:02] [Server thread/INFO]: Timings Reset
+[13:45:14] [Server thread/INFO]: dylanve issued server command: /reload
+[13:45:14] [Server thread/INFO]: dylanve: Are you sure you wish to reload your server? Doing so may cause bugs and memory leaks. It is recommended to restart instead of using /reload. To confirm, please type /reload confirm
+[13:45:25] [Server thread/INFO]: dylanve issued server command: /reload confirm
+[13:45:25] [Server thread/INFO]: dylanve: Please note that this command is not supported and may cause issues when using some plugins.
+[13:45:25] [Server thread/INFO]: dylanve: If you encounter any issues please use the /stop command to restart your server.
+[13:45:25] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[13:45:25] [Server thread/INFO]: Using 4 threads for Netty based IO
+[13:45:25] [Server thread/INFO]: Loaded 7 recipes
+[13:45:25] [Server thread/ERROR]: [DirectoryProviderSource] Error loading plugin: Directory 'plugins/Chunky-1.2.164.jar' failed to load!
+java.lang.RuntimeException: Directory 'plugins/Chunky-1.2.164.jar' failed to load!
+	at io.papermc.paper.plugin.provider.source.FileProviderSource.registerProviders(FileProviderSource.java:59) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paper.plugin.provider.source.DirectoryProviderSource.lambda$registerProviders$1(DirectoryProviderSource.java:34) ~[paper-1.20.1.jar:git-Paper-196]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183) ~[?:?]
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179) ~[?:?]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
+	at java.util.Iterator.forEachRemaining(Iterator.java:133) ~[?:?]
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[?:?]
+	at io.papermc.paper.plugin.provider.source.DirectoryProviderSource.registerProviders(DirectoryProviderSource.java:32) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paper.plugin.provider.source.DirectoryProviderSource.registerProviders(DirectoryProviderSource.java:14) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paper.plugin.util.EntrypointUtil.registerProvidersFromSource(EntrypointUtil.java:14) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paper.plugin.PluginInitializerManager.load(PluginInitializerManager.java:100) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paper.plugin.PluginInitializerManager.reload(PluginInitializerManager.java:112) ~[paper-1.20.1.jar:git-Paper-196]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.reload(CraftServer.java:1094) ~[paper-1.20.1.jar:git-Paper-196]
+	at org.bukkit.Bukkit.reload(Bukkit.java:993) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:54) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.dispatchCommand(CraftServer.java:987) ~[paper-1.20.1.jar:git-Paper-196]
+	at org.bukkit.craftbukkit.v1_20_R1.command.BukkitCommandWrapper.run(BukkitCommandWrapper.java:64) ~[paper-1.20.1.jar:git-Paper-196]
+	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:265) ~[paper-1.20.1.jar:?]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:324) ~[?:?]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:308) ~[?:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.performChatCommand(ServerGamePacketListenerImpl.java:2354) ~[?:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$21(ServerGamePacketListenerImpl.java:2314) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.lambda$submitAsync$0(BlockableEventLoop.java:59) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153) ~[?:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[?:?]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1338) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:197) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126) ~[?:?]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1315) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1308) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:136) ~[?:?]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1286) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1174) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.20.1.jar:git-Paper-196]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Directory 'plugins/Chunky-1.2.164.jar' does not contain a paper-plugin.yml or plugin.yml! Could not determine plugin type, cannot load a plugin from it!
+	at io.papermc.paper.plugin.provider.source.FileProviderSource.registerProviders(FileProviderSource.java:54) ~[paper-1.20.1.jar:git-Paper-196]
+	... 43 more
+[13:45:25] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[13:45:25] [Server thread/INFO]: dylanve: Reload complete.
+[13:45:25] [Server thread/INFO]: Timings Reset
+[13:45:39] [Server thread/INFO]: dylanve issued server command: /callback dylanve dylanve
+[13:49:00] [Server thread/INFO]: dylanve lost connection: Timed out
+[13:49:00] [Server thread/INFO]: dylanve left the game
+[13:51:09] [User Authenticator #1/INFO]: UUID of player dylanve is 6621273a-4f7e-30ee-b878-cb38b9180c59
+[13:51:09] [Server thread/INFO]: dylanve joined the game
+[13:51:09] [Server thread/INFO]: dylanve[/[0:0:0:0:0:0:0:1%0]:44696] logged in with entity id 4247 at ([world]100832.94316249088, 121.60269047544394, 100624.75602397748)
+[13:52:39] [Server thread/INFO]: dylanve issued server command: /time set day
+[13:52:39] [Server thread/INFO]: [dylanve: Set the time to 1000]
+[13:52:57] [Server thread/INFO]: dylanve issued server command: /restart ç
+[13:52:57] [Server thread/INFO]: [STDOUT] [org.spigotmc.RestartCommand] Startup script './start.sh' does not exist! Stopping server.
+[13:52:57] [Server thread/INFO]: dylanve lost connection: Server is restarting
+[13:52:57] [Server thread/INFO]: dylanve left the game
+[13:52:57] [Server thread/INFO]: Stopping server
+[13:52:57] [Server thread/INFO]: Saving players
+[13:52:57] [Server thread/INFO]: Saving worlds
+[13:52:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[13:52:57] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[13:52:57] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[13:52:57] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[13:52:59] [Server thread/INFO]: [ChunkHolderManager] Saved 2712 block chunks, 1005 entity chunks, 2 poi chunks in world 'world' in 1.97s
+[13:53:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[13:53:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[13:53:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[13:53:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[13:53:00] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[13:53:00] [Server thread/INFO]: [ChunkHolderManager] Saved 1501 block chunks, 26 entity chunks, 0 poi chunks in world 'world_nether' in 0.29s
+[13:53:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[13:53:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[13:53:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[13:53:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[13:53:00] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[13:53:00] [Server thread/INFO]: [ChunkHolderManager] Saved 1506 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.20s
+[13:53:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[13:53:00] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[13:53:00] [Server thread/INFO]: Flushing Chunk IO
+[13:53:00] [Server thread/INFO]: Closing Thread Pool
+[13:53:00] [Server thread/INFO]: Closing Server
