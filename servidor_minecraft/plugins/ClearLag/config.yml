@@ -99,12 +99,12 @@ player-speed-limiter:
 #Material list: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
 # -- 'items' Lists the material names of the entities with their spawn-age (In seconds)
 item-spawn-age-setter:
-  enabled: false
+  enabled: true
   items:
-    stone: 240
-    grass: 240
-    cobblestone: 240
-    log: 240
+    stone: 10
+    grass: 10
+    cobblestone: 10
+    log: 100
     stone_axe: 240
     stone_pickaxe: 240
     stone_sword: 240
@@ -113,14 +113,14 @@ item-spawn-age-setter:
     wooden_sword: 240
     rotten_flesh: 240
     gravel: 240
-    dirt: 240
+    dirt: 10
     leather: 200
     sand: 240
     bone: 240
-    beef: 240
+    beef: 10
     chicken: 160
     rabbit: 240
-    salmon: 240
+    salmon: 10
     cactus: 210
     wool: 180
     arrow: 160
