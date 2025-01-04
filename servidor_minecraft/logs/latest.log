@@ -1,4 +1,4 @@
-[17:50:25] [ServerMain/ERROR]: [DirectoryProviderSource] Error loading plugin: Directory 'plugins/Chunky-1.2.164.jar' failed to load!
+[18:10:29] [ServerMain/ERROR]: [DirectoryProviderSource] Error loading plugin: Directory 'plugins/Chunky-1.2.164.jar' failed to load!
 java.lang.RuntimeException: Directory 'plugins/Chunky-1.2.164.jar' failed to load!
 	at io.papermc.paper.plugin.provider.source.FileProviderSource.registerProviders(FileProviderSource.java:59) ~[paper-1.20.1.jar:git-Paper-196]
 	at io.papermc.paper.plugin.provider.source.DirectoryProviderSource.lambda$registerProviders$1(DirectoryProviderSource.java:34) ~[paper-1.20.1.jar:git-Paper-196]
@@ -24,24 +24,24 @@ java.lang.RuntimeException: Directory 'plugins/Chunky-1.2.164.jar' failed to loa
 Caused by: java.lang.IllegalArgumentException: Directory 'plugins/Chunky-1.2.164.jar' does not contain a paper-plugin.yml or plugin.yml! Could not determine plugin type, cannot load a plugin from it!
 	at io.papermc.paper.plugin.provider.source.FileProviderSource.registerProviders(FileProviderSource.java:54) ~[paper-1.20.1.jar:git-Paper-196]
 	... 20 more
-[17:50:30] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[17:50:32] [ServerMain/INFO]: Loaded 7 recipes
-[17:50:32] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[17:50:32] [Server thread/INFO]: Loading properties
-[17:50:32] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
-[17:50:33] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[17:50:33] [Server thread/INFO]: Using 4 threads for Netty based IO
-[17:50:33] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[18:10:34] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[18:10:35] [ServerMain/INFO]: Loaded 7 recipes
+[18:10:35] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[18:10:35] [Server thread/INFO]: Loading properties
+[18:10:35] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
+[18:10:36] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[18:10:36] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:10:36] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[17:50:33] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[17:50:33] [Server thread/INFO]: Default game type: SURVIVAL
-[17:50:33] [Server thread/INFO]: Generating keypair
-[17:50:33] [Server thread/INFO]: Starting Minecraft server on *:25565
-[17:50:33] [Server thread/INFO]: Using epoll channel type
-[17:50:33] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[17:50:33] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[17:50:34] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load plugin 'worldedit-bukkit-7.3.9 (3).jar' in folder 'plugins'
+[18:10:36] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[18:10:36] [Server thread/INFO]: Default game type: SURVIVAL
+[18:10:36] [Server thread/INFO]: Generating keypair
+[18:10:37] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:10:37] [Server thread/INFO]: Using epoll channel type
+[18:10:37] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[18:10:37] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[18:10:37] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load plugin 'worldedit-bukkit-7.3.9 (3).jar' in folder 'plugins'
 org.bukkit.plugin.InvalidPluginException: java.lang.UnsupportedClassVersionError: com/sk89q/worldedit/bukkit/WorldEditPlugin has been compiled by a more recent version of the Java Runtime (class file version 65.0), this version of the Java Runtime only recognizes class file versions up to 61.0
 	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:127) ~[paper-1.20.1.jar:git-Paper-196]
 	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:35) ~[paper-1.20.1.jar:git-Paper-196]
@@ -67,334 +67,172 @@ Caused by: java.lang.UnsupportedClassVersionError: com/sk89q/worldedit/bukkit/Wo
 	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:76) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
 	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:123) ~[paper-1.20.1.jar:git-Paper-196]
 	... 9 more
-[17:50:34] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.3.146
-[17:50:34] [Server thread/INFO]: [ClearLag] Loading server plugin ClearLag v3.2.2
-[17:50:34] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[17:50:34] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[17:50:34] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[17:50:34] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[17:50:34] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[17:50:34] [Server thread/INFO]: Preparing level "world"
-[17:50:34] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[17:50:34] [Server thread/INFO]: Time elapsed: 256 ms
-[17:50:34] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[17:50:34] [Server thread/INFO]: Time elapsed: 80 ms
-[17:50:34] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[17:50:34] [Server thread/INFO]: Time elapsed: 59 ms
-[17:50:34] [Server thread/INFO]: [Chunky] Enabling Chunky v1.3.146
-[17:50:35] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
-[17:50:35] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
-[17:50:35] [Server thread/INFO]: [ClearLag] Loading modules...
-[17:50:35] [Server thread/WARN]: [ClearLag] Clearlag failed to use the internal TPS tracker during initialization. Reverted to estimation... (net.minecraft.server.v1_20_R1.MinecraftServer)
-[17:50:35] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
-[17:50:35] [Server thread/WARN]: [ClearLag] Item type 'log' does not match any Materials found on your Craftbukkit version.
-[17:50:35] [Server thread/WARN]: [ClearLag] Item type 'wool' does not match any Materials found on your Craftbukkit version.
-[17:50:35] [Server thread/INFO]: [ClearLag] Modules have been loaded!
-[17:50:35] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
-[17:50:35] [Thread-10/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.20]...
-[17:50:35] [Server thread/INFO]: Running delayed init tasks
-[17:50:35] [Server thread/INFO]: Done (2.601s)! For help, type "help"
-[17:50:35] [Server thread/INFO]: Timings Reset
-[17:50:35] [Thread-10/INFO]: [ClearLag] No updates found!
-[17:51:07] [User Authenticator #0/INFO]: UUID of player dylanve is 6621273a-4f7e-30ee-b878-cb38b9180c59
-[17:51:07] [Server thread/INFO]: dylanve joined the game
-[17:51:07] [Server thread/INFO]: dylanve[/[0:0:0:0:0:0:0:1%0]:60916] logged in with entity id 14 at ([world]100917.13095779845, 68.0, 100648.60679430731)
-[17:51:23] [Server thread/INFO]: dylanve issued server command: /chunky start
-[17:51:31] [Server thread/INFO]: dylanve issued server command: /chunky continue
-[17:51:34] [Server thread/INFO]: dylanve issued server command: /chunky start
-[17:51:34] [ForkJoinPool.commonPool-worker-29/INFO]: [Chunky] Task running for world. Processed: 201 chunks (4.76%), ETA: 0:00:02, Rate: 2010.0 cps, Current: 5, 13
-[17:51:35] [ForkJoinPool.commonPool-worker-29/INFO]: [Chunky] Task running for world. Processed: 1863 chunks (44.09%), ETA: 0:00:01, Rate: 1692.1 cps, Current: 28, -18
-[17:51:36] [ForkJoinPool.commonPool-worker-47/INFO]: [Chunky] Task running for world. Processed: 3079 chunks (72.88%), ETA: 0:00:00, Rate: 1439.5 cps, Current: -5, -31
-[17:51:37] [ForkJoinPool.commonPool-worker-11/INFO]: [Chunky] Task finished for world. Processed: 4225 chunks (100.00%), Total time: 0:00:03
-[17:51:50] [Server thread/INFO]: dylanve issued server command: /chunky progress
-[17:52:35] [Server thread/INFO]: dylanve issued server command: /paper reload
-[17:52:35] [Server thread/INFO]: dylanve: Please note that this command is not supported and may cause issues.
-[17:52:35] [Server thread/INFO]: dylanve: If you encounter any issues please use the /stop command to restart your server.
-[17:52:36] [Server thread/INFO]: dylanve: Paper config reload complete.
-[17:52:36] [Server thread/INFO]: Timings Reset
-[17:52:40] [Server thread/INFO]: dylanve issued server command: /chunky start
-[17:52:40] [Chunky-world Thread/INFO]: [Chunky] Task finished for world. Processed: 4225 chunks (100.00%), Total time: 0:00:00
-[17:52:44] [Server thread/INFO]: dylanve issued server command: /chunky progress
-[17:52:46] [Server thread/INFO]: dylanve issued server command: /chunky start
-[17:52:46] [Chunky-world Thread/INFO]: [Chunky] Task finished for world. Processed: 4225 chunks (100.00%), Total time: 0:00:00
-[17:52:47] [Server thread/INFO]: dylanve issued server command: /chunky progress
-[17:52:48] [Server thread/INFO]: dylanve issued server command: /chunky progress
-[17:52:49] [Server thread/INFO]: dylanve issued server command: /chunky progress
-[17:53:06] [Server thread/INFO]: dylanve issued server command: /chunky radius 99999999999
-[17:53:08] [Server thread/INFO]: dylanve issued server command: /chunky radius 9999999999
-[17:53:10] [Server thread/INFO]: dylanve issued server command: /chunky radius 999999999
-[17:53:12] [Server thread/INFO]: dylanve issued server command: /chunky radius 99999999
-[17:53:13] [Server thread/INFO]: dylanve issued server command: /chunky radius 9999999
-[17:53:18] [Server thread/INFO]: dylanve issued server command: /chunky start
-[17:53:18] [ForkJoinPool.commonPool-worker-39/INFO]: [Chunky] Task running for world. Processed: 1180 chunks (0.00%), ETA: 293262:28:51, Rate: 1480.0 cps, Current: 46, 11
-[17:53:19] [ForkJoinPool.commonPool-worker-13/INFO]: [Chunky] Task running for world. Processed: 3017 chunks (0.00%), ETA: 247726:58:52, Rate: 1752.0 cps, Current: 58, -30
-[17:53:20] [ForkJoinPool.commonPool-worker-8/INFO]: [Chunky] Task running for world. Processed: 8295 chunks (0.00%), ETA: 224159:10:31, Rate: 1936.3 cps, Current: 47, 37
-[17:53:21] [ForkJoinPool.commonPool-worker-46/INFO]: [Chunky] Task running for world. Processed: 9951 chunks (0.00%), ETA: 235206:08:13, Rate: 1845.3 cps, Current: 91, 53
-[17:53:22] [ForkJoinPool.commonPool-worker-12/INFO]: [Chunky] Task running for world. Processed: 11567 chunks (0.00%), ETA: 242611:23:29, Rate: 1789.0 cps, Current: 68, -10
-[17:53:23] [ForkJoinPool.commonPool-worker-10/INFO]: [Chunky] Task running for world. Processed: 12695 chunks (0.00%), ETA: 261595:40:15, Rate: 1659.2 cps, Current: 73, -33
-[17:53:24] [ForkJoinPool.commonPool-worker-26/INFO]: [Chunky] Task running for world. Processed: 14566 chunks (0.00%), ETA: 256278:40:46, Rate: 1693.6 cps, Current: 3, -56
-[17:53:25] [ForkJoinPool.commonPool-worker-46/INFO]: [Chunky] Task running for world. Processed: 15734 chunks (0.00%), ETA: 268019:50:18, Rate: 1619.4 cps, Current: -28, -37
-[17:53:26] [ForkJoinPool.commonPool-worker-10/INFO]: [Chunky] Task running for world. Processed: 16784 chunks (0.00%), ETA: 280585:48:18, Rate: 1546.9 cps, Current: -56, -37
-[17:53:27] [ForkJoinPool.commonPool-worker-26/INFO]: [Chunky] Task running for world. Processed: 17949 chunks (0.00%), ETA: 288424:37:47, Rate: 1504.8 cps, Current: -43, -13
-[17:53:28] [ForkJoinPool.commonPool-worker-26/INFO]: [Chunky] Task running for world. Processed: 19425 chunks (0.00%), ETA: 289000:08:20, Rate: 1501.8 cps, Current: -36, 4
-[17:53:29] [ForkJoinPool.commonPool-worker-8/INFO]: [Chunky] Task running for world. Processed: 21240 chunks (0.00%), ETA: 283706:24:43, Rate: 1529.9 cps, Current: -35, 82
-[17:53:30] [ForkJoinPool.commonPool-worker-37/INFO]: [Chunky] Task running for world. Processed: 23489 chunks (0.00%), ETA: 273137:49:35, Rate: 1589.0 cps, Current: 24, 64
-[17:53:31] [ForkJoinPool.commonPool-worker-35/INFO]: [Chunky] Task running for world. Processed: 25675 chunks (0.00%), ETA: 265556:37:24, Rate: 1634.4 cps, Current: 107, 67
-[17:53:32] [ForkJoinPool.commonPool-worker-8/INFO]: [Chunky] Task running for world. Processed: 27746 chunks (0.00%), ETA: 260645:53:36, Rate: 1665.2 cps, Current: 108, 5
-[17:53:33] [ForkJoinPool.commonPool-worker-15/INFO]: [Chunky] Task running for world. Processed: 29427 chunks (0.00%), ETA: 260534:11:16, Rate: 1665.9 cps, Current: 125, -15
-[17:53:34] [ForkJoinPool.commonPool-worker-34/INFO]: [Chunky] Task running for world. Processed: 31359 chunks (0.00%), ETA: 257995:19:21, Rate: 1682.3 cps, Current: 119, -71
-[17:53:35] [ForkJoinPool.commonPool-worker-4/INFO]: [Chunky] Task running for world. Processed: 33154 chunks (0.00%), ETA: 257005:20:35, Rate: 1688.8 cps, Current: 40, -71
-[17:53:36] [ForkJoinPool.commonPool-worker-14/INFO]: [Chunky] Task running for world. Processed: 35297 chunks (0.00%), ETA: 253262:25:27, Rate: 1713.7 cps, Current: -21, -78
-[17:53:37] [ForkJoinPool.commonPool-worker-6/INFO]: [Chunky] Task running for world. Processed: 37042 chunks (0.00%), ETA: 253034:28:48, Rate: 1715.3 cps, Current: -86, -81
-[17:53:38] [ForkJoinPool.commonPool-worker-28/INFO]: [Chunky] Task running for world. Processed: 39128 chunks (0.00%), ETA: 250359:25:30, Rate: 1733.6 cps, Current: -90, -23
-[17:53:39] [ForkJoinPool.commonPool-worker-36/INFO]: [Chunky] Task running for world. Processed: 40739 chunks (0.00%), ETA: 251212:04:08, Rate: 1727.7 cps, Current: -70, 10
-[17:53:39] [Async Chat Thread - #0/INFO]: [Not Secure] <dylanve> ajuajuajua
-[17:53:40] [ForkJoinPool.commonPool-worker-7/INFO]: [Chunky] Task running for world. Processed: 42448 chunks (0.00%), ETA: 251346:34:14, Rate: 1726.8 cps, Current: -84, 87
-[17:53:41] [ForkJoinPool.commonPool-worker-34/INFO]: [Chunky] Task running for world. Processed: 43913 chunks (0.00%), ETA: 253015:34:58, Rate: 1715.4 cps, Current: -75, 101
-[17:53:42] [ForkJoinPool.commonPool-worker-23/INFO]: [Chunky] Task running for world. Processed: 45743 chunks (0.00%), ETA: 252327:47:01, Rate: 1720.1 cps, Current: -2, 124
-[17:53:43] [ForkJoinPool.commonPool-worker-15/INFO]: [Chunky] Task running for world. Processed: 47578 chunks (0.00%), ETA: 251669:01:43, Rate: 1724.6 cps, Current: 40, 117
-[17:53:44] [ForkJoinPool.commonPool-worker-20/INFO]: [Chunky] Task running for world. Processed: 50000 chunks (0.00%), ETA: 247844:14:07, Rate: 1751.2 cps, Current: 116, 111
-[17:53:45] [ForkJoinPool.commonPool-worker-1/INFO]: [Chunky] Task running for world. Processed: 52642 chunks (0.00%), ETA: 243293:18:47, Rate: 1784.0 cps, Current: 141, 60
-[17:53:46] [ForkJoinPool.commonPool-worker-8/INFO]: [Chunky] Task running for world. Processed: 54777 chunks (0.00%), ETA: 241612:29:39, Rate: 1796.4 cps, Current: 142, -14
-[17:53:47] [ForkJoinPool.commonPool-worker-13/INFO]: [Chunky] Task running for world. Processed: 56937 chunks (0.00%), ETA: 239954:02:18, Rate: 1808.8 cps, Current: 150, -66
-[17:53:48] [ForkJoinPool.commonPool-worker-15/INFO]: [Chunky] Task running for world. Processed: 59803 chunks (0.00%), ETA: 234586:15:45, Rate: 1850.2 cps, Current: 75, -97
-[17:53:49] [ForkJoinPool.commonPool-worker-34/INFO]: [Chunky] Task running for world. Processed: 62449 chunks (0.00%), ETA: 232490:10:19, Rate: 1866.9 cps, Current: 31, -125
-[17:53:50] [ForkJoinPool.commonPool-worker-28/INFO]: [Chunky] Task running for world. Processed: 65165 chunks (0.00%), ETA: 228207:18:29, Rate: 1901.9 cps, Current: -71, -101
-[17:53:51] [ForkJoinPool.commonPool-worker-15/INFO]: [Chunky] Task running for world. Processed: 67698 chunks (0.00%), ETA: 224896:02:35, Rate: 1929.9 cps, Current: -118, -57
-[17:53:52] [ForkJoinPool.commonPool-worker-34/INFO]: [Chunky] Task running for world. Processed: 70082 chunks (0.00%), ETA: 219796:45:00, Rate: 1974.7 cps, Current: -114, 23
-[17:53:53] [ForkJoinPool.commonPool-worker-6/INFO]: [Chunky] Task running for world. Processed: 72016 chunks (0.00%), ETA: 219697:41:41, Rate: 1975.6 cps, Current: -128, 91
-[17:53:54] [ForkJoinPool.commonPool-worker-33/INFO]: [Chunky] Task running for world. Processed: 73664 chunks (0.00%), ETA: 218106:44:33, Rate: 1990.0 cps, Current: -105, 96
-[17:53:55] [ForkJoinPool.commonPool-worker-15/INFO]: [Chunky] Task running for world. Processed: 75843 chunks (0.00%), ETA: 213819:32:58, Rate: 2029.9 cps, Current: -55, 129
-[17:53:56] [ForkJoinPool.commonPool-worker-38/INFO]: [Chunky] Task running for world. Processed: 77815 chunks (0.00%), ETA: 210756:23:22, Rate: 2059.4 cps, Current: -4, 130
-[17:53:57] [ForkJoinPool.commonPool-worker-46/INFO]: [Chunky] Task running for world. Processed: 80478 chunks (0.00%), ETA: 206649:49:55, Rate: 2100.3 cps, Current: 82, 157
-[17:53:58] [ForkJoinPool.commonPool-worker-33/INFO]: [Chunky] Task running for world. Processed: 82740 chunks (0.00%), ETA: 204946:21:23, Rate: 2117.8 cps, Current: 153, 140
-[17:53:59] [ForkJoinPool.commonPool-worker-46/INFO]: [Chunky] Task running for world. Processed: 84949 chunks (0.00%), ETA: 204717:56:43, Rate: 2120.1 cps, Current: 184, 102
-[17:54:00] [ForkJoinPool.commonPool-worker-21/INFO]: [Chunky] Task running for world. Processed: 87038 chunks (0.00%), ETA: 205496:20:06, Rate: 2112.1 cps, Current: 190, 33
-[17:54:01] [ForkJoinPool.commonPool-worker-20/INFO]: [Chunky] Task running for world. Processed: 89334 chunks (0.00%), ETA: 204493:46:03, Rate: 2122.5 cps, Current: 163, -52
-[17:54:02] [ForkJoinPool.commonPool-worker-8/INFO]: [Chunky] Task running for world. Processed: 91551 chunks (0.00%), ETA: 203197:05:57, Rate: 2136.0 cps, Current: 170, -100
-[17:54:03] [ForkJoinPool.commonPool-worker-51/INFO]: [Chunky] Task running for world. Processed: 93624 chunks (0.00%), ETA: 202443:22:55, Rate: 2143.9 cps, Current: 141, -134
-[17:54:04] [ForkJoinPool.commonPool-worker-38/INFO]: [Chunky] Task running for world. Processed: 96257 chunks (0.00%), ETA: 199485:35:53, Rate: 2175.7 cps, Current: 32, -160
-[17:54:05] [ForkJoinPool.commonPool-worker-37/INFO]: [Chunky] Task running for world. Processed: 99062 chunks (0.00%), ETA: 197635:39:10, Rate: 2196.1 cps, Current: -4, -141
-[17:54:06] [ForkJoinPool.commonPool-worker-14/INFO]: [Chunky] Task running for world. Processed: 101830 chunks (0.00%), ETA: 194328:27:42, Rate: 2233.5 cps, Current: -113, -140
-[17:54:07] [ForkJoinPool.commonPool-worker-2/INFO]: [Chunky] Task running for world. Processed: 104655 chunks (0.00%), ETA: 192543:30:03, Rate: 2254.2 cps, Current: -153, -83
-[17:54:08] [ForkJoinPool.commonPool-worker-36/INFO]: [Chunky] Task running for world. Processed: 107295 chunks (0.00%), ETA: 189522:40:36, Rate: 2290.1 cps, Current: -131, -21
-[17:54:09] [ForkJoinPool.commonPool-worker-40/INFO]: [Chunky] Task running for world. Processed: 109612 chunks (0.00%), ETA: 187804:25:18, Rate: 2311.1 cps, Current: -153, 70
-[17:54:10] [ForkJoinPool.commonPool-worker-52/INFO]: [Chunky] Task running for world. Processed: 111959 chunks (0.00%), ETA: 187713:52:40, Rate: 2312.2 cps, Current: -159, 159
-[17:54:11] [ForkJoinPool.commonPool-worker-42/INFO]: [Chunky] Task running for world. Processed: 114745 chunks (0.00%), ETA: 184295:17:05, Rate: 2355.1 cps, Current: -91, 161
-[17:54:12] [ForkJoinPool.commonPool-worker-31/INFO]: [Chunky] Task running for world. Processed: 117572 chunks (0.00%), ETA: 181627:55:56, Rate: 2389.7 cps, Current: -9, 174
-[17:54:13] [ForkJoinPool.commonPool-worker-3/INFO]: [Chunky] Task running for world. Processed: 120298 chunks (0.00%), ETA: 179433:28:34, Rate: 2418.9 cps, Current: 72, 177
-[17:54:14] [ForkJoinPool.commonPool-worker-50/INFO]: [Chunky] Task running for world. Processed: 121972 chunks (0.00%), ETA: 181099:49:12, Rate: 2396.6 cps, Current: 139, 166
-[17:54:15] [ForkJoinPool.commonPool-worker-14/INFO]: [Chunky] Task running for world. Processed: 123940 chunks (0.00%), ETA: 182616:16:48, Rate: 2376.7 cps, Current: 196, 165
-[17:54:16] [ForkJoinPool.commonPool-worker-33/INFO]: [Chunky] Task running for world. Processed: 125455 chunks (0.00%), ETA: 184649:04:00, Rate: 2350.6 cps, Current: 210, 144
-[17:54:17] [ForkJoinPool.commonPool-worker-23/INFO]: [Chunky] Task running for world. Processed: 127657 chunks (0.00%), ETA: 184128:05:52, Rate: 2357.2 cps, Current: 222, 95
-[17:54:18] [ForkJoinPool.commonPool-worker-29/INFO]: [Chunky] Task running for world. Processed: 130101 chunks (0.00%), ETA: 185217:38:02, Rate: 2343.3 cps, Current: 197, -29
-[17:54:19] [ForkJoinPool.commonPool-worker-45/INFO]: [Chunky] Task running for world. Processed: 132536 chunks (0.00%), ETA: 185765:01:56, Rate: 2336.4 cps, Current: 205, -70
-[17:54:20] [ForkJoinPool.commonPool-worker-9/INFO]: [Chunky] Task running for world. Processed: 134701 chunks (0.00%), ETA: 187282:50:28, Rate: 2317.5 cps, Current: 213, -137
-[17:54:21] [ForkJoinPool.commonPool-worker-2/INFO]: [Chunky] Task running for world. Processed: 136670 chunks (0.00%), ETA: 188890:55:02, Rate: 2297.8 cps, Current: 171, -171
-[17:54:22] [ForkJoinPool.commonPool-worker-50/INFO]: [Chunky] Task running for world. Processed: 138743 chunks (0.00%), ETA: 190053:57:12, Rate: 2283.7 cps, Current: 109, -173
-[17:54:23] [ForkJoinPool.commonPool-worker-31/INFO]: [Chunky] Task running for world. Processed: 140754 chunks (0.00%), ETA: 190066:32:59, Rate: 2283.6 cps, Current: 43, -170
-[17:54:24] [ForkJoinPool.commonPool-worker-9/INFO]: [Chunky] Task running for world. Processed: 143562 chunks (0.00%), ETA: 186848:55:49, Rate: 2322.9 cps, Current: -60, -179
-[17:54:25] [ForkJoinPool.commonPool-worker-45/INFO]: [Chunky] Task running for world. Processed: 145689 chunks (0.00%), ETA: 186721:56:21, Rate: 2324.5 cps, Current: -122, -174
-[17:54:26] [ForkJoinPool.commonPool-worker-40/INFO]: [Chunky] Task running for world. Processed: 148137 chunks (0.00%), ETA: 185535:18:17, Rate: 2339.3 cps, Current: -162, -162
-[17:54:27] [ForkJoinPool.commonPool-worker-50/INFO]: [Chunky] Task running for world. Processed: 150819 chunks (0.00%), ETA: 185294:44:44, Rate: 2342.4 cps, Current: -187, -75
-[17:54:28] [ForkJoinPool.commonPool-worker-38/INFO]: [Chunky] Task running for world. Processed: 152851 chunks (0.00%), ETA: 185821:19:36, Rate: 2335.7 cps, Current: -187, -15
-[17:54:29] [ForkJoinPool.commonPool-worker-25/INFO]: [Chunky] Task running for world. Processed: 154608 chunks (0.00%), ETA: 187173:35:50, Rate: 2318.9 cps, Current: -161, 4
-[17:54:30] [ForkJoinPool.commonPool-worker-49/INFO]: [Chunky] Task running for world. Processed: 157021 chunks (0.00%), ETA: 186484:22:43, Rate: 2327.4 cps, Current: -189, 125
-[17:54:31] [ForkJoinPool.commonPool-worker-12/INFO]: [Chunky] Task running for world. Processed: 159274 chunks (0.00%), ETA: 186204:17:47, Rate: 2330.9 cps, Current: -169, 182
-[17:54:34] [Server thread/INFO]: [Chunky] Task running for world. Processed: 159749 chunks (0.00%), ETA: 209418:06:46, Rate: 2072.5 cps, Current: -190, 196
-[17:54:35] [Server thread/INFO]: [Chunky] Task running for world. Processed: 159780 chunks (0.00%), ETA: 219284:29:36, Rate: 1979.3 cps, Current: -192, 195
-[17:54:37] [Server thread/INFO]: [Chunky] Task running for world. Processed: 159807 chunks (0.00%), ETA: 238230:30:15, Rate: 1821.9 cps, Current: -185, 193
-[17:54:39] [Server thread/INFO]: [Chunky] Task running for world. Processed: 159809 chunks (0.00%), ETA: 263130:07:40, Rate: 1649.5 cps, Current: -184, 192
-[17:54:40] [Server thread/INFO]: [Chunky] Task running for world. Processed: 159835 chunks (0.00%), ETA: 280095:11:51, Rate: 1549.6 cps, Current: -179, 196
-[17:54:41] [Server thread/INFO]: [Chunky] Task running for world. Processed: 159851 chunks (0.00%), ETA: 301848:03:30, Rate: 1437.9 cps, Current: -177, 197
-[17:54:43] [Server thread/INFO]: [Chunky] Task running for world. Processed: 159873 chunks (0.00%), ETA: 338494:30:11, Rate: 1282.2 cps, Current: -184, 200
-[17:54:45] [Server thread/INFO]: [Chunky] Task running for world. Processed: 159903 chunks (0.00%), ETA: 366494:48:23, Rate: 1184.3 cps, Current: -179, 204
-[17:54:46] [Server thread/INFO]: [Chunky] Task running for world. Processed: 159930 chunks (0.00%), ETA: 390377:24:06, Rate: 1111.8 cps, Current: -184, 204
-[17:54:47] [Server thread/INFO]: dylanve issued server command: /chunky progress
-[17:54:47] [Server thread/INFO]: [Chunky] Task running for world. Processed: 159959 chunks (0.00%), ETA: 424096:17:44, Rate: 1023.4 cps, Current: -188, 200
-[17:54:48] [Server thread/INFO]: [Chunky] Task running for world. Processed: 159975 chunks (0.00%), ETA: 464027:39:29, Rate: 935.4 cps, Current: -190, 201
-[17:54:49] [Server thread/INFO]: [Chunky] Task running for world. Processed: 159999 chunks (0.00%), ETA: 501153:31:36, Rate: 866.1 cps, Current: -190, 208
-[17:54:50] [Server thread/INFO]: [Chunky] Task running for world. Processed: 160016 chunks (0.00%), ETA: 544403:30:18, Rate: 797.3 cps, Current: -191, 211
-[17:54:52] [Server thread/INFO]: [Chunky] Task running for world. Processed: 160028 chunks (0.00%), ETA: 638517:06:24, Rate: 679.7 cps, Current: -188, 211
-[17:54:53] [Server thread/INFO]: [Chunky] Task running for world. Processed: 160045 chunks (0.00%), ETA: 757191:52:34, Rate: 573.2 cps, Current: -190, 212
-[17:54:54] [Server thread/INFO]: [Chunky] Task running for world. Processed: 160064 chunks (0.00%), ETA: 879008:40:16, Rate: 493.8 cps, Current: -192, 213
-[17:54:55] [Server thread/INFO]: [Chunky] Task running for world. Processed: 160073 chunks (0.00%), ETA: 1041654:17:39, Rate: 416.7 cps, Current: -191, 218
-[17:54:56] [Server thread/INFO]: [Chunky] Task running for world. Processed: 160092 chunks (0.00%), ETA: 1331676:06:28, Rate: 325.9 cps, Current: -188, 221
-[17:54:58] [Server thread/INFO]: [Chunky] Task running for world. Processed: 160113 chunks (0.00%), ETA: 2155610:16:04, Rate: 201.3 cps, Current: -187, 223
-[17:55:00] [Server thread/INFO]: [Chunky] Task running for world. Processed: 160129 chunks (0.00%), ETA: 9313019:08:12, Rate: 46.6 cps, Current: -184, 216
-[17:55:01] [Server thread/INFO]: [Chunky] Task running for world. Processed: 160149 chunks (0.00%), ETA: 29414355:29:30, Rate: 14.8 cps, Current: -181, 217
-[17:55:02] [Server thread/INFO]: [Chunky] Task running for world. Processed: 160167 chunks (0.00%), ETA: 29240464:06:00, Rate: 14.8 cps, Current: -179, 220
-[17:55:04] [Server thread/INFO]: [Chunky] Task running for world. Processed: 160233 chunks (0.00%), ETA: 28122938:53:39, Rate: 15.4 cps, Current: -184, 210
-[17:55:07] [Server thread/INFO]: [Chunky] Task running for world. Processed: 160257 chunks (0.00%), ETA: 28848936:05:30, Rate: 15.0 cps, Current: -176, 208
-[17:55:09] [Server thread/INFO]: dylanve issued server command: /paper reload
-[17:55:09] [Server thread/INFO]: dylanve: Please note that this command is not supported and may cause issues.
-[17:55:09] [Server thread/INFO]: dylanve: If you encounter any issues please use the /stop command to restart your server.
-[17:55:09] [Server thread/INFO]: dylanve: Paper config reload complete.
-[17:55:09] [Server thread/INFO]: Timings Reset
-[17:55:10] [Server thread/INFO]: [Chunky] Task running for world. Processed: 160321 chunks (0.00%), ETA: 26596049:58:39, Rate: 16.3 cps, Current: -176, 216
-[17:55:11] [Server thread/INFO]: [Chunky] Task running for world. Processed: 160366 chunks (0.00%), ETA: 24866632:34:20, Rate: 17.5 cps, Current: -170, 223
-[17:55:12] [Server thread/INFO]: [Chunky] Task running for world. Processed: 160378 chunks (0.00%), ETA: 24454842:49:54, Rate: 17.7 cps, Current: -172, 217
-[17:55:13] [Server thread/INFO]: [Chunky] Task running for world. Processed: 160390 chunks (0.00%), ETA: 25056343:49:27, Rate: 17.3 cps, Current: -167, 217
-[17:55:14] [Server thread/INFO]: [Chunky] Task running for world. Processed: 160420 chunks (0.00%), ETA: 24845194:51:32, Rate: 17.5 cps, Current: -167, 223
-[17:55:16] [Server thread/INFO]: [Chunky] Task running for world. Processed: 160439 chunks (0.00%), ETA: 25293644:53:55, Rate: 17.2 cps, Current: -162, 218
-[17:55:17] [Server thread/INFO]: [Chunky] Task running for world. Processed: 160461 chunks (0.00%), ETA: 25652546:58:09, Rate: 16.9 cps, Current: -164, 214
-[17:55:18] [Server thread/INFO]: [Chunky] Task running for world. Processed: 160484 chunks (0.00%), ETA: 25220455:47:26, Rate: 17.2 cps, Current: -168, 210
-[17:55:19] [Server thread/INFO]: [Chunky] Task running for world. Processed: 160490 chunks (0.00%), ETA: 26240194:16:07, Rate: 16.5 cps, Current: -165, 210
-[17:55:20] [Server thread/INFO]: dylanve issued server command: /chunky progress
-[17:55:20] [Server thread/INFO]: [Chunky] Task running for world. Processed: 160492 chunks (0.00%), ETA: 26764152:58:36, Rate: 16.2 cps, Current: -166, 209
-[17:55:21] [Server thread/INFO]: [Chunky] Task running for world. Processed: 160499 chunks (0.00%), ETA: 27366779:44:06, Rate: 15.9 cps, Current: -162, 211
-[17:55:22] [Server thread/INFO]: [Chunky] Task running for world. Processed: 160513 chunks (0.00%), ETA: 27231813:27:27, Rate: 15.9 cps, Current: -163, 206
-[17:55:24] [Server thread/INFO]: [Chunky] Task running for world. Processed: 160545 chunks (0.00%), ETA: 26576587:09:49, Rate: 16.3 cps, Current: -165, 202
-[17:55:25] [Server thread/INFO]: [Chunky] Task running for world. Processed: 160609 chunks (0.00%), ETA: 23752751:16:02, Rate: 18.3 cps, Current: -176, 203
-[17:55:25] [Server thread/INFO]: dylanve issued server command: /chunky progress
-[17:55:26] [Server thread/INFO]: dylanve issued server command: /chunky progress
-[17:55:26] [Server thread/INFO]: [Chunky] Task running for world. Processed: 160633 chunks (0.00%), ETA: 23528024:24:43, Rate: 18.4 cps, Current: -171, 201
-[17:55:26] [Server thread/INFO]: dylanve issued server command: /chunky progress
-[17:55:27] [Server thread/INFO]: [Chunky] Task running for world. Processed: 160690 chunks (0.00%), ETA: 22023563:35:09, Rate: 19.7 cps, Current: -169, 196
-[17:55:28] [Server thread/INFO]: [Chunky] Task running for world. Processed: 160737 chunks (0.00%), ETA: 20288869:05:26, Rate: 21.4 cps, Current: -164, 199
-[17:55:29] [Server thread/INFO]: [Chunky] Task running for world. Processed: 160777 chunks (0.00%), ETA: 19862317:52:17, Rate: 21.9 cps, Current: -159, 194
-[17:55:31] [Server thread/INFO]: [Chunky] Task running for world. Processed: 160787 chunks (0.00%), ETA: 20052249:11:57, Rate: 21.6 cps, Current: -159, 196
-[17:55:32] [Server thread/INFO]: [Chunky] Task running for world. Processed: 160823 chunks (0.00%), ETA: 19524673:01:23, Rate: 22.2 cps, Current: -151, 192
-[17:55:33] [Server thread/INFO]: [Chunky] Task running for world. Processed: 160833 chunks (0.00%), ETA: 20509829:11:18, Rate: 21.2 cps, Current: -154, 199
-[17:55:34] [Server thread/INFO]: [Chunky] Task running for world. Processed: 160855 chunks (0.00%), ETA: 20508714:02:41, Rate: 21.2 cps, Current: -148, 194
-[17:55:35] [Server thread/INFO]: [Chunky] Task running for world. Processed: 160874 chunks (0.00%), ETA: 19931596:43:14, Rate: 21.8 cps, Current: -150, 196
-[17:55:36] [Server thread/INFO]: [Chunky] Task running for world. Processed: 160888 chunks (0.00%), ETA: 20266105:50:55, Rate: 21.4 cps, Current: -145, 198
-[17:55:37] [Server thread/INFO]: dylanve issued server command: /chunky pause
-[17:55:38] [Chunky-world Thread/INFO]: [Chunky] Task stopped for world.
-[17:59:07] [Server thread/INFO]: dylanve issued server command: /paper reload
-[17:59:07] [Server thread/INFO]: dylanve: Please note that this command is not supported and may cause issues.
-[17:59:07] [Server thread/INFO]: dylanve: If you encounter any issues please use the /stop command to restart your server.
-[17:59:07] [Server thread/INFO]: dylanve: Paper config reload complete.
-[17:59:07] [Server thread/INFO]: Timings Reset
-[17:59:13] [Server thread/INFO]: dylanve issued server command: /reload
-[17:59:13] [Server thread/INFO]: dylanve: Are you sure you wish to reload your server? Doing so may cause bugs and memory leaks. It is recommended to restart instead of using /reload. To confirm, please type /reload confirm
-[17:59:20] [Server thread/INFO]: dylanve issued server command: /reload confirm
-[17:59:20] [Server thread/INFO]: dylanve: Please note that this command is not supported and may cause issues when using some plugins.
-[17:59:20] [Server thread/INFO]: dylanve: If you encounter any issues please use the /stop command to restart your server.
-[17:59:20] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[17:59:20] [Server thread/INFO]: Using 4 threads for Netty based IO
-[17:59:20] [Server thread/INFO]: [ClearLag] Disabling ClearLag v3.2.2
-[17:59:20] [Server thread/INFO]: [ClearLag] Clearlag is now disabled!
-[17:59:20] [Server thread/INFO]: [Chunky] Disabling Chunky v1.3.146
-[17:59:21] [Server thread/INFO]: Loaded 7 recipes
-[17:59:21] [Server thread/ERROR]: [DirectoryProviderSource] Error loading plugin: Directory 'plugins/Chunky-1.2.164.jar' failed to load!
-java.lang.RuntimeException: Directory 'plugins/Chunky-1.2.164.jar' failed to load!
-	at io.papermc.paper.plugin.provider.source.FileProviderSource.registerProviders(FileProviderSource.java:59) ~[paper-1.20.1.jar:git-Paper-196]
-	at io.papermc.paper.plugin.provider.source.DirectoryProviderSource.lambda$registerProviders$1(DirectoryProviderSource.java:34) ~[paper-1.20.1.jar:git-Paper-196]
-	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183) ~[?:?]
-	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179) ~[?:?]
-	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
-	at java.util.Iterator.forEachRemaining(Iterator.java:133) ~[?:?]
-	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845) ~[?:?]
-	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
-	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) ~[?:?]
-	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) ~[?:?]
-	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
-	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[?:?]
-	at io.papermc.paper.plugin.provider.source.DirectoryProviderSource.registerProviders(DirectoryProviderSource.java:32) ~[paper-1.20.1.jar:git-Paper-196]
-	at io.papermc.paper.plugin.provider.source.DirectoryProviderSource.registerProviders(DirectoryProviderSource.java:14) ~[paper-1.20.1.jar:git-Paper-196]
-	at io.papermc.paper.plugin.util.EntrypointUtil.registerProvidersFromSource(EntrypointUtil.java:14) ~[paper-1.20.1.jar:git-Paper-196]
-	at io.papermc.paper.plugin.PluginInitializerManager.load(PluginInitializerManager.java:100) ~[paper-1.20.1.jar:git-Paper-196]
-	at io.papermc.paper.plugin.PluginInitializerManager.reload(PluginInitializerManager.java:112) ~[paper-1.20.1.jar:git-Paper-196]
-	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.reload(CraftServer.java:1094) ~[paper-1.20.1.jar:git-Paper-196]
-	at org.bukkit.Bukkit.reload(Bukkit.java:993) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:54) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.dispatchCommand(CraftServer.java:987) ~[paper-1.20.1.jar:git-Paper-196]
-	at org.bukkit.craftbukkit.v1_20_R1.command.BukkitCommandWrapper.run(BukkitCommandWrapper.java:64) ~[paper-1.20.1.jar:git-Paper-196]
-	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:265) ~[paper-1.20.1.jar:?]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:324) ~[?:?]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:308) ~[?:?]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.performChatCommand(ServerGamePacketListenerImpl.java:2354) ~[?:?]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$21(ServerGamePacketListenerImpl.java:2314) ~[?:?]
-	at net.minecraft.util.thread.BlockableEventLoop.lambda$submitAsync$0(BlockableEventLoop.java:59) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153) ~[?:?]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[?:?]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1338) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:197) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126) ~[?:?]
-	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1315) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1308) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:136) ~[?:?]
-	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1286) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1174) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.20.1.jar:git-Paper-196]
-	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-Caused by: java.lang.IllegalArgumentException: Directory 'plugins/Chunky-1.2.164.jar' does not contain a paper-plugin.yml or plugin.yml! Could not determine plugin type, cannot load a plugin from it!
-	at io.papermc.paper.plugin.provider.source.FileProviderSource.registerProviders(FileProviderSource.java:54) ~[paper-1.20.1.jar:git-Paper-196]
-	... 43 more
-[17:59:21] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load plugin 'worldedit-bukkit-7.3.9 (3).jar' in folder 'plugins'
-org.bukkit.plugin.InvalidPluginException: java.lang.UnsupportedClassVersionError: com/sk89q/worldedit/bukkit/WorldEditPlugin has been compiled by a more recent version of the Java Runtime (class file version 65.0), this version of the Java Runtime only recognizes class file versions up to 61.0
-	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:127) ~[paper-1.20.1.jar:git-Paper-196]
-	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:35) ~[paper-1.20.1.jar:git-Paper-196]
-	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:116) ~[paper-1.20.1.jar:git-Paper-196]
-	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:39) ~[paper-1.20.1.jar:git-Paper-196]
-	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:36) ~[paper-1.20.1.jar:git-Paper-196]
-	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.loadPlugins(CraftServer.java:510) ~[paper-1.20.1.jar:git-Paper-196]
-	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.reload(CraftServer.java:1095) ~[paper-1.20.1.jar:git-Paper-196]
-	at org.bukkit.Bukkit.reload(Bukkit.java:993) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:54) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.dispatchCommand(CraftServer.java:987) ~[paper-1.20.1.jar:git-Paper-196]
-	at org.bukkit.craftbukkit.v1_20_R1.command.BukkitCommandWrapper.run(BukkitCommandWrapper.java:64) ~[paper-1.20.1.jar:git-Paper-196]
-	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:265) ~[paper-1.20.1.jar:?]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:324) ~[?:?]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:308) ~[?:?]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.performChatCommand(ServerGamePacketListenerImpl.java:2354) ~[?:?]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$21(ServerGamePacketListenerImpl.java:2314) ~[?:?]
-	at net.minecraft.util.thread.BlockableEventLoop.lambda$submitAsync$0(BlockableEventLoop.java:59) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153) ~[?:?]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[?:?]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1338) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:197) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126) ~[?:?]
-	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1315) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1308) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:136) ~[?:?]
-	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1286) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1174) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.20.1.jar:git-Paper-196]
-	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-Caused by: java.lang.UnsupportedClassVersionError: com/sk89q/worldedit/bukkit/WorldEditPlugin has been compiled by a more recent version of the Java Runtime (class file version 65.0), this version of the Java Runtime only recognizes class file versions up to 61.0
-	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
-	at java.lang.ClassLoader.defineClass(ClassLoader.java:1017) ~[?:?]
-	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150) ~[?:?]
-	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:229) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:592) ~[?:?]
-	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:155) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:150) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
-	at java.lang.Class.forName0(Native Method) ~[?:?]
-	at java.lang.Class.forName(Class.java:467) ~[?:?]
-	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:76) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:123) ~[paper-1.20.1.jar:git-Paper-196]
-	... 31 more
-[17:59:21] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.3.146
-[17:59:21] [Server thread/INFO]: [ClearLag] Loading server plugin ClearLag v3.2.2
-[17:59:21] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[17:59:21] [Server thread/INFO]: [Chunky] Enabling Chunky v1.3.146
-[17:59:22] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
-[17:59:22] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
-[17:59:22] [Server thread/INFO]: [ClearLag] Loading modules...
-[17:59:22] [Server thread/WARN]: [ClearLag] Clearlag failed to use the internal TPS tracker during initialization. Reverted to estimation... (net.minecraft.server.v1_20_R1.MinecraftServer)
-[17:59:22] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
-[17:59:22] [Server thread/WARN]: [ClearLag] Item type 'log' does not match any Materials found on your Craftbukkit version.
-[17:59:22] [Server thread/WARN]: [ClearLag] Item type 'wool' does not match any Materials found on your Craftbukkit version.
-[17:59:22] [Server thread/INFO]: [ClearLag] Modules have been loaded!
-[17:59:22] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
-[17:59:22] [Thread-14/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.20]...
-[17:59:22] [Server thread/INFO]: dylanve: Reload complete.
-[17:59:22] [Server thread/INFO]: Timings Reset
-[17:59:22] [Thread-14/INFO]: [ClearLag] No updates found!
-[17:59:40] [Server thread/INFO]: dylanve issued server command: /give dylanve minecraft:command_block
-[17:59:40] [Server thread/INFO]: [dylanve: Gave 1 [Command Block] to dylanve]
-[18:00:13] [User Authenticator #1/INFO]: UUID of player dylanve is 6621273a-4f7e-30ee-b878-cb38b9180c59
-[18:00:13] [Server thread/INFO]: dylanve lost connection: You logged in from another location
-[18:00:13] [Server thread/INFO]: dylanve left the game
-[18:00:13] [Server thread/INFO]: dylanve joined the game
-[18:00:13] [Server thread/INFO]: dylanve[/[0:0:0:0:0:0:0:1%0]:52892] logged in with entity id 1054 at ([world]100903.01502624413, 72.0, 100616.85616208415)
+[18:10:37] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.3.146
+[18:10:37] [Server thread/INFO]: [ClearLag] Loading server plugin ClearLag v3.2.2
+[18:10:37] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:10:37] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:10:37] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:10:37] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18:10:37] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:10:37] [Server thread/INFO]: Preparing level "world"
+[18:10:37] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[18:10:37] [Server thread/INFO]: Time elapsed: 269 ms
+[18:10:37] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[18:10:38] [Server thread/INFO]: Time elapsed: 57 ms
+[18:10:38] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[18:10:38] [Server thread/INFO]: Time elapsed: 70 ms
+[18:10:38] [Server thread/INFO]: [Chunky] Enabling Chunky v1.3.146
+[18:10:38] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
+[18:10:38] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
+[18:10:38] [Server thread/INFO]: [ClearLag] Loading modules...
+[18:10:38] [Server thread/WARN]: [ClearLag] Clearlag failed to use the internal TPS tracker during initialization. Reverted to estimation... (net.minecraft.server.v1_20_R1.MinecraftServer)
+[18:10:38] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[18:10:38] [Server thread/WARN]: [ClearLag] Item type 'log' does not match any Materials found on your Craftbukkit version.
+[18:10:38] [Server thread/WARN]: [ClearLag] Item type 'wool' does not match any Materials found on your Craftbukkit version.
+[18:10:38] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[18:10:38] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[18:10:38] [Thread-10/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.20]...
+[18:10:38] [Server thread/INFO]: Running delayed init tasks
+[18:10:38] [Server thread/INFO]: Done (2.802s)! For help, type "help"
+[18:10:38] [Server thread/INFO]: Timings Reset
+[18:10:38] [Thread-10/INFO]: [ClearLag] No updates found!
+[18:10:52] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[18:10:58] [User Authenticator #0/INFO]: UUID of player dylanve is 6621273a-4f7e-30ee-b878-cb38b9180c59
+[18:10:59] [Server thread/INFO]: dylanve joined the game
+[18:10:59] [Server thread/INFO]: dylanve[/[0:0:0:0:0:0:0:1%0]:56570] logged in with entity id 14 at ([world]100851.3562893781, -63.0, 100584.28681916952)
+[18:11:33] [Server thread/INFO]: dylanve issued server command: /fill
+[18:11:38] [Server thread/INFO]: dylanve issued server command: /fill 100855 -60 100581
+[18:11:53] [Server thread/INFO]: dylanve issued server command: /fill 100855 -60 100581 100844 -53 100594 minecraft:fire
+[18:11:53] [Server thread/INFO]: [dylanve: Successfully filled 1344 block(s)]
+[18:11:58] [Server thread/INFO]: dylanve issued server command: /fill 100855 -60 100581 100844 -53 100594 minecraft:fire
+[18:11:58] [Server thread/INFO]: [dylanve: Successfully filled 1316 block(s)]
+[18:12:00] [Server thread/INFO]: dylanve issued server command: /fill 100855 -60 100581 100844 -53 100594 minecraft:fire
+[18:12:00] [Server thread/INFO]: [dylanve: Successfully filled 1275 block(s)]
+[18:12:00] [Server thread/INFO]: dylanve issued server command: /fill 100855 -60 100581 100844 -53 100594 minecraft:fire
+[18:12:00] [Server thread/INFO]: [dylanve: Successfully filled 1259 block(s)]
+[18:12:00] [Server thread/INFO]: dylanve issued server command: /fill 100855 -60 100581 100844 -53 100594 minecraft:fire
+[18:12:00] [Server thread/INFO]: [dylanve: Successfully filled 1263 block(s)]
+[18:12:01] [Async Chat Thread - #1/INFO]: [Not Secure] <dylanve> t
+[18:12:01] [Async Chat Thread - #0/INFO]: [Not Secure] <dylanve> tt
+[18:12:01] [Async Chat Thread - #1/INFO]: [Not Secure] <dylanve> tt
+[18:12:25] [Server thread/INFO]: dylanve issued server command: /fill 100855 -60 100581 100844 -53 100594 minecraft:lava destroy
+[18:12:25] [Server thread/INFO]: [dylanve: Successfully filled 1344 block(s)]
+[18:12:29] [Server thread/INFO]: dylanve issued server command: /gamemode spectator
+[18:12:29] [Server thread/INFO]: [dylanve: Set own game mode to Spectator Mode]
+[18:12:38] [Server thread/INFO]: dylanve issued server command: /fill 100855 -60 100581 100844 -53 100594 minecraft:lava destroy
+[18:12:45] [Server thread/INFO]: dylanve issued server command: /fill 100855 -60 100581 100844 -53 100594 minecraft:lava replace minecraft:air
+[18:12:47] [Server thread/INFO]: dylanve issued server command: /fill 100855 -60 100581 100844 -53 100594 minecraft:lava replace minecraft:air
+[18:12:47] [Server thread/INFO]: dylanve issued server command: /fill 100855 -60 100581 100844 -53 100594 minecraft:lava replace minecraft:air
+[18:12:48] [Server thread/INFO]: dylanve issued server command: /fill 100855 -60 100581 100844 -53 100594 minecraft:lava replace minecraft:air
+[18:12:48] [Server thread/INFO]: dylanve issued server command: /fill 100855 -60 100581 100844 -53 100594 minecraft:lava replace minecraft:air
+[18:13:05] [Server thread/INFO]: dylanve issued server command: /fill 100855 -60 100581 100844 -53 100594 minecraft:lava hollow
+[18:13:05] [Server thread/INFO]: [dylanve: Successfully filled 720 block(s)]
+[18:13:09] [Server thread/INFO]: dylanve issued server command: /fill 100855 -60 100581 100844 -53 100594 minecraft:lava hollow
+[18:13:09] [Server thread/INFO]: [dylanve: Successfully filled 400 block(s)]
+[18:13:10] [Server thread/INFO]: dylanve issued server command: /fill 100855 -60 100581 100844 -53 100594 minecraft:lava hollow
+[18:13:10] [Server thread/INFO]: [dylanve: Successfully filled 200 block(s)]
+[18:13:10] [Server thread/INFO]: dylanve issued server command: /fill 100855 -60 100581 100844 -53 100594 minecraft:lava hollow
+[18:13:11] [Server thread/INFO]: dylanve issued server command: /fill 100855 -60 100581 100844 -53 100594 minecraft:lava hollow
+[18:13:11] [Server thread/INFO]: dylanve issued server command: /fill 100855 -60 100581 100844 -53 100594 minecraft:lava hollow
+[18:13:11] [Server thread/INFO]: [dylanve: Successfully filled 120 block(s)]
+[18:13:12] [Server thread/INFO]: dylanve issued server command: /fill 100855 -60 100581 100844 -53 100594 minecraft:lava hollow
+[18:13:12] [Server thread/INFO]: [dylanve: Successfully filled 200 block(s)]
+[18:13:13] [Server thread/INFO]: dylanve issued server command: /fill 100855 -60 100581 100844 -53 100594 minecraft:lava replace minecraft:air
+[18:13:13] [Server thread/INFO]: [dylanve: Successfully filled 600 block(s)]
+[18:13:13] [Server thread/INFO]: dylanve issued server command: /fill 100855 -60 100581 100844 -53 100594 minecraft:lava replace minecraft:air
+[18:13:13] [Server thread/INFO]: dylanve issued server command: /fill 100855 -60 100581 100844 -53 100594 minecraft:lava replace minecraft:air
+[18:13:14] [Server thread/INFO]: dylanve issued server command: /fill 100855 -60 100581 100844 -53 100594 minecraft:lava replace minecraft:air
+[18:13:16] [Server thread/INFO]: dylanve issued server command: /fill 100855 -60 100581 100844 -53 100594 minecraft:lava hollow
+[18:13:16] [Server thread/INFO]: [dylanve: Successfully filled 720 block(s)]
+[18:13:17] [Server thread/INFO]: dylanve issued server command: /fill 100855 -60 100581 100844 -53 100594 minecraft:lava hollow
+[18:13:17] [Server thread/INFO]: dylanve issued server command: /fill 100855 -60 100581 100844 -53 100594 minecraft:lava hollow
+[18:13:18] [Server thread/INFO]: dylanve issued server command: /fill 100855 -60 100581 100844 -53 100594 minecraft:lava hollow
+[18:13:18] [Server thread/INFO]: [dylanve: Successfully filled 320 block(s)]
+[18:13:18] [Server thread/INFO]: dylanve issued server command: /fill 100855 -60 100581 100844 -53 100594 minecraft:lava hollow
+[18:13:19] [Server thread/INFO]: dylanve issued server command: /fill 100855 -60 100581 100844 -53 100594 minecraft:lava hollow
+[18:13:19] [Server thread/INFO]: [dylanve: Successfully filled 320 block(s)]
+[18:13:49] [Server thread/INFO]: dylanve issued server command: /fill 100855 -60 100581 100844 -53 100594 minecraft:lava hollow
+[18:13:49] [Server thread/INFO]: [dylanve: Successfully filled 720 block(s)]
+[18:13:50] [Server thread/INFO]: dylanve issued server command: /gamemode creative
+[18:13:50] [Server thread/INFO]: [dylanve: Set own game mode to Creative Mode]
+[18:13:55] [Server thread/INFO]: dylanve issued server command: /fill 100855 -60 100581 100844 -53 100594 minecraft:lava hollow
+[18:13:55] [Server thread/INFO]: [dylanve: Successfully filled 560 block(s)]
+[18:14:05] [Server thread/INFO]: dylanve issued server command: /fill 100855 -60 100581 100844 -53 100594 minecraft:lava hollow
+[18:14:05] [Server thread/INFO]: [dylanve: Successfully filled 721 block(s)]
+[18:14:13] [Server thread/INFO]: dylanve issued server command: /fill 100855 -60 100581 100844 -53 100594 minecraft:lava hollow
+[18:14:13] [Server thread/INFO]: [dylanve: Successfully filled 561 block(s)]
+[18:14:26] [Server thread/INFO]: dylanve issued server command: /fill 100855 -60 100581 100844 -53 100594 minecraft:lava hollow
+[18:14:26] [Server thread/INFO]: [dylanve: Successfully filled 721 block(s)]
+[18:14:40] [Server thread/INFO]: dylanve issued server command: /gamemode spectator
+[18:14:40] [Server thread/INFO]: [dylanve: Set own game mode to Spectator Mode]
+[18:14:42] [Server thread/INFO]: dylanve issued server command: /fill 100855 -60 100581 100844 -53 100594 minecraft:lava hollow
+[18:14:42] [Server thread/INFO]: [dylanve: Successfully filled 721 block(s)]
+[18:14:44] [Server thread/INFO]: dylanve issued server command: /gamemode creative
+[18:14:44] [Server thread/INFO]: [dylanve: Set own game mode to Creative Mode]
+[18:15:08] [Server thread/INFO]: dylanve issued server command: /gamemode spectator
+[18:15:08] [Server thread/INFO]: [dylanve: Set own game mode to Spectator Mode]
+[18:15:13] [Server thread/INFO]: dylanve issued server command: /gamemode creative
+[18:15:13] [Server thread/INFO]: [dylanve: Set own game mode to Creative Mode]
+[18:15:18] [Server thread/INFO]: [@: Successfully filled 720 block(s)]
+[18:15:20] [Server thread/INFO]: [@: Successfully filled 320 block(s)]
+[18:15:41] [Server thread/INFO]: dylanve issued server command: /fill 100855 -60 100581 100844 -53 100594 minecraft:lava hollow
+[18:15:41] [Server thread/INFO]: [dylanve: Successfully filled 726 block(s)]
+[18:15:43] [Server thread/INFO]: dylanve issued server command: /fill 100855 -60 100581 100844 -53 100594 minecraft:lava hollow
+[18:15:43] [Server thread/INFO]: [dylanve: Successfully filled 320 block(s)]
+[18:15:44] [Server thread/INFO]: dylanve issued server command: /fill 100855 -60 100581 100844 -53 100594 minecraft:lava hollow
+[18:15:44] [Server thread/INFO]: dylanve issued server command: /fill 100855 -60 100581 100844 -53 100594 minecraft:lava hollow
+[18:15:44] [Server thread/INFO]: [dylanve: Successfully filled 320 block(s)]
+[18:15:44] [Server thread/INFO]: dylanve issued server command: /fill 100855 -60 100581 100844 -53 100594 minecraft:lava hollow
+[18:15:45] [Server thread/INFO]: dylanve issued server command: /fill 100855 -60 100581 100844 -53 100594 minecraft:lava hollow
+[18:15:45] [Server thread/INFO]: dylanve issued server command: /fill 100855 -60 100581 100844 -53 100594 minecraft:lava hollow
+[18:15:45] [Server thread/INFO]: dylanve issued server command: /fill 100855 -60 100581 100844 -53 100594 minecraft:lava hollow
+[18:15:45] [Server thread/INFO]: [dylanve: Successfully filled 320 block(s)]
+[18:15:47] [Server thread/INFO]: dylanve issued server command: /fill 100855 -60 100581 100844 -53 100594 minecraft:lava hollow
+[18:15:47] [Server thread/INFO]: [dylanve: Successfully filled 320 block(s)]
+[18:15:47] [Server thread/INFO]: dylanve issued server command: /fill 100855 -60 100581 100844 -53 100594 minecraft:lava hollow
+[18:15:48] [Server thread/INFO]: dylanve issued server command: /fill 100855 -60 100581 100844 -53 100594 minecraft:lava hollow
+[18:15:48] [Server thread/INFO]: dylanve issued server command: /fill 100855 -60 100581 100844 -53 100594 minecraft:lava hollow
+[18:15:49] [Server thread/INFO]: dylanve issued server command: /fill 100855 -60 100581 100844 -53 100594 minecraft:lava hollow
+[18:15:49] [Server thread/INFO]: [dylanve: Successfully filled 320 block(s)]
+[18:15:49] [Server thread/INFO]: dylanve issued server command: /fill 100855 -60 100581 100844 -53 100594 minecraft:lava hollow
+[18:15:49] [Server thread/INFO]: dylanve issued server command: /fill 100855 -60 100581 100844 -53 100594 minecraft:lava hollow
+[18:15:50] [Server thread/INFO]: dylanve issued server command: /fill 100855 -60 100581 100844 -53 100594 minecraft:lava hollow
+[18:15:50] [Server thread/INFO]: dylanve issued server command: /fill 100855 -60 100581 100844 -53 100594 minecraft:lava hollow
+[18:15:50] [Server thread/INFO]: [dylanve: Successfully filled 320 block(s)]
+[18:15:50] [Server thread/INFO]: dylanve issued server command: /fill 100855 -60 100581 100844 -53 100594 minecraft:lava hollow
+[18:15:51] [Server thread/INFO]: dylanve issued server command: /fill 100855 -60 100581 100844 -53 100594 minecraft:lava hollow
+[18:15:51] [Server thread/INFO]: dylanve issued server command: /fill 100855 -60 100581 100844 -53 100594 minecraft:lava hollow
+[18:15:51] [Server thread/INFO]: [dylanve: Successfully filled 320 block(s)]
+[18:15:52] [Server thread/INFO]: dylanve issued server command: /fill 100855 -60 100581 100844 -53 100594 minecraft:lava hollow
+[18:15:52] [Server thread/INFO]: dylanve issued server command: /fill 100855 -60 100581 100844 -53 100594 minecraft:lava hollow
+[18:16:20] [Server thread/INFO]: [@: Successfully filled 721 block(s)]
+[18:16:25] [Server thread/INFO]: dylanve issued server command: /fill 100855 -60 100581 100844 -53 100594 minecraft:lava hollow
+[18:16:25] [Server thread/INFO]: [dylanve: Successfully filled 480 block(s)]
+[18:16:31] [Server thread/INFO]: dylanve issued server command: /fill 100855 -60 100581 100844 -53 100594 minecraft:lava hollow
+[18:16:31] [Server thread/INFO]: [dylanve: Successfully filled 560 block(s)]
+[18:16:38] [Server thread/INFO]: dylanve issued server command: /fill 100855 -60 100581 100844 -53 100594 minecraft:lava hollow
+[18:16:38] [Server thread/INFO]: [dylanve: Successfully filled 560 block(s)]
+[18:16:46] [Server thread/INFO]: dylanve issued server command: /fill 100855 -60 100581 100844 -53 100594 minecraft:lava hollow
+[18:16:46] [Server thread/INFO]: [dylanve: Successfully filled 641 block(s)]
+[18:17:03] [Server thread/INFO]: dylanve issued server command: /gamemode spectator
+[18:17:03] [Server thread/INFO]: [dylanve: Set own game mode to Spectator Mode]
+[18:17:07] [Server thread/INFO]: dylanve issued server command: /gamemode creative
+[18:17:07] [Server thread/INFO]: [dylanve: Set own game mode to Creative Mode]
+[18:18:23] [Server thread/INFO]: [@: Successfully filled 721 block(s)]
+[18:18:25] [Server thread/INFO]: [@: Successfully filled 320 block(s)]
+[18:18:27] [Server thread/INFO]: [@: Successfully filled 320 block(s)]
+[18:18:53] [Server thread/INFO]: dylanve issued server command: /fill 100855 -60 100581 100844 -53 100594 minecraft:lava hollow
+[18:18:53] [Server thread/INFO]: [dylanve: Successfully filled 720 block(s)]
+[18:18:58] [Server thread/INFO]: dylanve issued server command: /fill 100855 -60 100581 100844 -53 100594 minecraft:lava hollow
+[18:18:58] [Server thread/INFO]: [dylanve: Successfully filled 480 block(s)]
+[18:18:59] [Server thread/INFO]: dylanve issued server command: /fill 100855 -60 100581 100844 -53 100594 minecraft:lava hollow
+[18:19:00] [Server thread/INFO]: dylanve issued server command: /fill 100855 -60 100581 100844 -53 100594 minecraft:lava hollow
+[18:19:01] [Server thread/INFO]: dylanve issued server command: /fill 100855 -60 100581 100844 -53 100594 minecraft:lava hollow
+[18:19:01] [Server thread/INFO]: [dylanve: Successfully filled 320 block(s)]
+[18:19:01] [Server thread/INFO]: dylanve issued server command: /fill 100855 -60 100581 100844 -53 100594 minecraft:lava hollow
+[18:19:01] [Server thread/INFO]: dylanve issued server command: /fill 100855 -60 100581 100844 -53 100594 minecraft:lava hollow
+[18:19:01] [Server thread/INFO]: [dylanve: Successfully filled 320 block(s)]
+[18:19:02] [Server thread/INFO]: dylanve issued server command: /fill 100855 -60 100581 100844 -53 100594 minecraft:lava hollow
+[18:19:02] [Server thread/INFO]: dylanve issued server command: /fill 100855 -60 100581 100844 -53 100594 minecraft:lava hollow
+[18:19:23] [Server thread/INFO]: dylanve issued server command: /fill 100855 -60 100581 100844 -53 100594 minecraft:beacon
+[18:19:23] [Server thread/INFO]: [dylanve: Successfully filled 1344 block(s)]
